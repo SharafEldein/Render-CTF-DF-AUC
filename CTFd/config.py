@@ -264,6 +264,7 @@ class TestingConfig(ServerConfig):
     SAFE_MODE = True
 
 
+
 # Actually initialize ServerConfig to allow us to add more attributes on
 Config = ServerConfig()
 for k, v in config_ini.items("extra"):
